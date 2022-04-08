@@ -1,0 +1,8 @@
+installable:
+  id: dccc6e94-7a08-4326-b1ca-5c713cf16e7a
+services:
+  web:
+    command: java -jar shadow-1.0-SNAPSHOT.jar
+    replicas: 1
+    port: 7000
+port: 7000
